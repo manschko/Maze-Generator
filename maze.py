@@ -47,10 +47,10 @@ goal = (n//2, n//2)
 
 
 # Generate mazes
-maze1 = generate_maze(startNW, n, goal)
-maze2 = generate_maze(startNE, n, goal)
-maze3 = generate_maze(startSW, n, goal)
-maze4 = generate_maze(startSW, n, goal)
+maze1 = generate_maze(startNW, goal, n)
+maze2 = generate_maze(startNE, goal, n)
+maze3 = generate_maze(startSW, goal, n)
+maze4 = generate_maze(startSW, goal, n)
 
 
 visualize_maze(maze1, startNW, goal, 1)
